@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Wi-Fi QR</title>
+<style>
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #f5f5f5;
+    flex-direction: column;
+    font-family: sans-serif;
+  }
+  img {
+    width: 300px;
+    height: 300px;
+  }
+</style>
+</head>
+<body>
+<h1>Yhdistä Wi-Fi-verkkoon</h1>
+<img src="https://api.qrserver.com/v1/create-qr-code/?size=300x300&data=WIFI:T:WPA;S:5GCPE_11EF37;P:2Q238CBPX3;;" alt="Wi-Fi QR Code">
+<p>Skannaa koodi kameralla yhdistääksesi verkkoon.</p>
+</body>
+</html>
